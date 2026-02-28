@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shakira Bilqis Sarwahita</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="brand">SBS</div>
+  <nav class="nav">
+    <a href="#home">Home</a>
+    <a href="#cities">Cities</a>
+    <a href="#contact">Message</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-box">
+    <h1 id="greeting">Welcome to My Website</h1>
+    <p>Personal website of Shakira Bilqis Sarwahita</p>
+  </div>
+</section>
+
+<section id="cities" class="cities">
+  <h2>Our Cities</h2>
+
+  <div class="city-grid">
+
+    <div class="city-card">
+      <div class="city-img jkt2"></div>
+      <h3>Jakarta</h3>
+    </div>
+
+    <div class="city-card">
+      <div class="city-img bandung2"></div>
+      <h3>Bandung</h3>
+    </div>
+
+    <div class="city-card">
+      <div class="city-img sby2"></div>
+      <h3>Surabaya</h3>
+    </div>
+
+    <div class="city-card">
+      <div class="city-img kediri"></div>
+      <h3>Kediri</h3>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Message Me</h2>
+
+  <div class="contact-wrapper">
+    <form id="formMessage">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="date" id="birth">
+      
+      <div class="gender">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+      </div>
+
+      <textarea id="message" placeholder="Write your message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="output">
+      <h3>Result</h3>
+      <div id="resultBox"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Shakira Bilqis Sarwahita</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
